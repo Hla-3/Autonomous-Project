@@ -1,0 +1,56 @@
+[0.025s] Invoking command in '/home/youss/auto_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/youss/auto_ws/src/AutoProject -DCMAKE_INSTALL_PREFIX=/home/youss/auto_ws/install/AutoProject
+[0.652s] -- The C compiler identification is GNU 13.3.0
+[2.854s] -- The CXX compiler identification is GNU 13.3.0
+[4.805s] -- Detecting C compiler ABI info
+[5.572s] -- Detecting C compiler ABI info - done
+[5.590s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.592s] -- Detecting C compile features
+[5.593s] -- Detecting C compile features - done
+[5.901s] -- Detecting CXX compiler ABI info
+[6.677s] -- Detecting CXX compiler ABI info - done
+[6.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.695s] -- Detecting CXX compile features
+[6.696s] -- Detecting CXX compile features - done
+[6.732s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.011s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.257s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.397s] WARNING: Package name "AutoProject" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[7.474s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.474s] -- Configured 'flake8' exclude dirs and/or files: 
+[7.476s] -- Added test 'lint_cmake' to check CMake code style
+[7.478s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.481s] -- Added test 'xmllint' to check XML markup files
+[7.485s] -- Configuring done (7.4s)
+[7.494s] -- Generating done (0.0s)
+[7.498s] -- Build files have been written to: /home/youss/auto_ws/build/AutoProject
+[7.513s] Invoked command in '/home/youss/auto_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/youss/auto_ws/src/AutoProject -DCMAKE_INSTALL_PREFIX=/home/youss/auto_ws/install/AutoProject
+[7.516s] Invoking command in '/home/youss/auto_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/youss/auto_ws/build/AutoProject -- -j6 -l6
+[7.594s] Invoked command in '/home/youss/auto_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/youss/auto_ws/build/AutoProject -- -j6 -l6
+[7.614s] Invoking command in '/home/youss/auto_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/youss/auto_ws/build/AutoProject
+[7.630s] -- Install configuration: ""
+[7.630s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/launch
+[7.632s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/launch/tb4_simulation.launch.py:Zone.Identifier
+[7.632s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/launch/sim.launch.py:Zone.Identifier
+[7.632s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/launch/sim.launch.py
+[7.633s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/launch/tb4_simulation.launch.py
+[7.633s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/worlds
+[7.634s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/worlds/lane_visual.sdf
+[7.634s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/worlds/doubleLane.sdf:Zone.Identifier
+[7.634s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/worlds/doubleLane.sdf
+[7.634s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/worlds/lane_visual.sdf:Zone.Identifier
+[7.635s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/ament_index/resource_index/package_run_dependencies/AutoProject
+[7.636s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/ament_index/resource_index/parent_prefix_path/AutoProject
+[7.637s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/environment/ament_prefix_path.sh
+[7.637s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/environment/ament_prefix_path.dsv
+[7.637s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/environment/path.sh
+[7.637s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/environment/path.dsv
+[7.638s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/local_setup.bash
+[7.638s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/local_setup.sh
+[7.638s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/local_setup.zsh
+[7.638s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/local_setup.dsv
+[7.639s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/package.dsv
+[7.639s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/ament_index/resource_index/packages/AutoProject
+[7.640s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/cmake/AutoProjectConfig.cmake
+[7.640s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/cmake/AutoProjectConfig-version.cmake
+[7.640s] -- Installing: /home/youss/auto_ws/install/AutoProject/share/AutoProject/package.xml
+[7.645s] Invoked command in '/home/youss/auto_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/youss/auto_ws/build/AutoProject

@@ -1,0 +1,6 @@
+Invoking command in '/home/youss/auto_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/youss/auto_ws/src/AutoProject -DCMAKE_INSTALL_PREFIX=/home/youss/auto_ws/install/AutoProject
+Invoked command in '/home/youss/auto_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/youss/auto_ws/src/AutoProject -DCMAKE_INSTALL_PREFIX=/home/youss/auto_ws/install/AutoProject
+Invoking command in '/home/youss/auto_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/youss/auto_ws/build/AutoProject -- -j6 -l6
+Invoked command in '/home/youss/auto_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/youss/auto_ws/build/AutoProject -- -j6 -l6
+Invoking command in '/home/youss/auto_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/youss/auto_ws/build/AutoProject
+Invoked command in '/home/youss/auto_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/youss/auto_ws/build/AutoProject
