@@ -2,6 +2,7 @@
 
 # building for first time
 ## Install turtle bot
-'''
-sudo apt install ros-jazzy-turtlebot4-simulator ros-jazzy-ros-gz
 '''bash
+sudo apt install ros-jazzy-turtlebot4-simulator ros-jazzy-ros-gz
+'''
+
