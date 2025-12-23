@@ -1,0 +1,27 @@
+[0.117s] Invoking command in '/home/arwa/ros2_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arwa/ros2_ws/build/AutoProject -- -j4 -l4
+[1.944s] Invoked command in '/home/arwa/ros2_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arwa/ros2_ws/build/AutoProject -- -j4 -l4
+[1.974s] Invoking command in '/home/arwa/ros2_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arwa/ros2_ws/build/AutoProject
+[2.001s] -- Install configuration: ""
+[2.001s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/launch
+[2.004s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/launch/tb4_simulation.launch.py
+[2.005s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/launch/sim.launch.py
+[2.006s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/worlds
+[2.006s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/worlds/doubleLane.sdf
+[2.006s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/worlds/lane_visual.sdfZone.Identifier
+[2.007s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/worlds/lane_visual.sdf
+[2.007s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/ament_index/resource_index/package_run_dependencies/AutoProject
+[2.008s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/ament_index/resource_index/parent_prefix_path/AutoProject
+[2.008s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/environment/ament_prefix_path.sh
+[2.009s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/environment/ament_prefix_path.dsv
+[2.009s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/environment/path.sh
+[2.009s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/environment/path.dsv
+[2.009s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/local_setup.bash
+[2.010s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/local_setup.sh
+[2.010s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/local_setup.zsh
+[2.012s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/local_setup.dsv
+[2.013s] -- Installing: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/package.dsv
+[2.013s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/ament_index/resource_index/packages/AutoProject
+[2.014s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/cmake/AutoProjectConfig.cmake
+[2.014s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/cmake/AutoProjectConfig-version.cmake
+[2.014s] -- Up-to-date: /home/arwa/ros2_ws/install/AutoProject/share/AutoProject/package.xml
+[2.016s] Invoked command in '/home/arwa/ros2_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arwa/ros2_ws/build/AutoProject

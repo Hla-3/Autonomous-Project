@@ -1,0 +1,4 @@
+Invoking command in '/home/arwa/ros2_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arwa/ros2_ws/build/AutoProject -- -j4 -l4
+Invoked command in '/home/arwa/ros2_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arwa/ros2_ws/build/AutoProject -- -j4 -l4
+Invoking command in '/home/arwa/ros2_ws/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arwa/ros2_ws/build/AutoProject
+Invoked command in '/home/arwa/ros2_ws/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arwa/ros2_ws/build/AutoProject

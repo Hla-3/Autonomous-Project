@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.007595] (lidar_reader) JobQueued: {'identifier': 'lidar_reader', 'dependencies': OrderedDict()}
+[0.008401] (lidar_reader) JobStarted: {'identifier': 'lidar_reader'}
+[0.100032] (-) TimerEvent: {}
+[0.204584] (-) TimerEvent: {}
+[0.305047] (-) TimerEvent: {}
+[0.407507] (-) TimerEvent: {}
+[0.509548] (-) TimerEvent: {}
+[0.610151] (-) TimerEvent: {}
+[0.710908] (-) TimerEvent: {}
+[0.814324] (-) TimerEvent: {}
+[0.915195] (-) TimerEvent: {}
+[1.016259] (-) TimerEvent: {}
+[1.117554] (-) TimerEvent: {}
+[1.219156] (-) TimerEvent: {}
+[1.319691] (-) TimerEvent: {}
+[1.421517] (-) TimerEvent: {}
+[1.523042] (-) TimerEvent: {}
+[1.624117] (-) TimerEvent: {}
+[1.725912] (-) TimerEvent: {}
+[1.827085] (-) TimerEvent: {}
+[1.928293] (-) TimerEvent: {}
+[2.031765] (-) TimerEvent: {}
+[2.139201] (-) TimerEvent: {}
+[2.256367] (-) TimerEvent: {}
+[2.361207] (-) TimerEvent: {}
+[2.461979] (-) TimerEvent: {}
+[2.562664] (-) TimerEvent: {}
+[2.663406] (-) TimerEvent: {}
+[2.763865] (-) TimerEvent: {}
+[2.864463] (-) TimerEvent: {}
+[2.965726] (-) TimerEvent: {}
+[3.068681] (-) TimerEvent: {}
+[3.174633] (-) TimerEvent: {}
+[3.275165] (-) TimerEvent: {}
+[3.375852] (-) TimerEvent: {}
+[3.476371] (-) TimerEvent: {}
+[3.576968] (-) TimerEvent: {}
+[3.677515] (-) TimerEvent: {}
+[3.777941] (-) TimerEvent: {}
+[3.878476] (-) TimerEvent: {}
+[3.979499] (-) TimerEvent: {}
+[4.083707] (-) TimerEvent: {}
+[4.186721] (-) TimerEvent: {}
+[4.289098] (-) TimerEvent: {}
+[4.389637] (-) TimerEvent: {}
+[4.490851] (-) TimerEvent: {}
+[4.594516] (-) TimerEvent: {}
+[4.695132] (-) TimerEvent: {}
+[4.800049] (-) TimerEvent: {}
+[4.904175] (-) TimerEvent: {}
+[5.007998] (-) TimerEvent: {}
+[5.109791] (-) TimerEvent: {}
+[5.212544] (-) TimerEvent: {}
+[5.316619] (-) TimerEvent: {}
+[5.417770] (-) TimerEvent: {}
+[5.529884] (-) TimerEvent: {}
+[5.633365] (-) TimerEvent: {}
+[5.733959] (-) TimerEvent: {}
+[5.838265] (-) TimerEvent: {}
+[5.938929] (-) TimerEvent: {}
+[6.041372] (-) TimerEvent: {}
+[6.142489] (-) TimerEvent: {}
+[6.245318] (-) TimerEvent: {}
+[6.349749] (-) TimerEvent: {}
+[6.452631] (-) TimerEvent: {}
+[6.557172] (-) TimerEvent: {}
+[6.659176] (-) TimerEvent: {}
+[6.762862] (-) TimerEvent: {}
+[6.864014] (-) TimerEvent: {}
+[6.965473] (-) TimerEvent: {}
+[7.066533] (-) TimerEvent: {}
+[7.169965] (-) TimerEvent: {}
+[7.273404] (-) TimerEvent: {}
+[7.373728] (-) TimerEvent: {}
+[7.395654] (lidar_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_reader', 'build', '--build-base', '/home/arwa/ros2_ws/build/lidar_reader/build', 'install', '--record', '/home/arwa/ros2_ws/build/lidar_reader/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/arwa/ros2_ws/src/lidar_reader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arwa', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2729', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arwa', 'OLDPWD': '/home/arwa/ros2_ws/src/lidar_reader/lidar_reader', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'arwa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arwa', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arwa-VMware-Virtual-Platform:@/tmp/.ICE-unix/2486,unix/arwa-VMware-Virtual-Platform:/tmp/.ICE-unix/2486', 'XDG_MENU_PREFIX': 'xfce-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/24a4c7e7_9f60_472f_8291_5c41dcdb5c82', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/tmp/ssh-RfTg6fBW4ezf/agent.2724', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/arwa/ros2_ws/build/lidar_reader', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/arwa/ros2_ws/build/lidar_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/lidar_reader/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.474024] (-) TimerEvent: {}
+[7.576197] (-) TimerEvent: {}
+[7.677388] (-) TimerEvent: {}
+[7.779680] (-) TimerEvent: {}
+[7.880633] (-) TimerEvent: {}
+[7.980992] (-) TimerEvent: {}
+[8.084046] (-) TimerEvent: {}
+[8.186133] (-) TimerEvent: {}
+[8.290526] (-) TimerEvent: {}
+[8.392220] (-) TimerEvent: {}
+[8.493172] (-) TimerEvent: {}
+[8.597804] (-) TimerEvent: {}
+[8.700983] (-) TimerEvent: {}
+[8.802894] (-) TimerEvent: {}
+[8.903774] (-) TimerEvent: {}
+[9.006267] (-) TimerEvent: {}
+[9.108963] (-) TimerEvent: {}
+[9.209588] (-) TimerEvent: {}
+[9.211763] (lidar_reader) StdoutLine: {'line': b'running egg_info\n'}
+[9.212057] (lidar_reader) StdoutLine: {'line': b'creating ../../build/lidar_reader/lidar_reader.egg-info\n'}
+[9.268645] (lidar_reader) StdoutLine: {'line': b'writing ../../build/lidar_reader/lidar_reader.egg-info/PKG-INFO\n'}
+[9.270286] (lidar_reader) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_reader/lidar_reader.egg-info/dependency_links.txt\n'}
+[9.273699] (lidar_reader) StdoutLine: {'line': b'writing requirements to ../../build/lidar_reader/lidar_reader.egg-info/requires.txt\n'}
+[9.276702] (lidar_reader) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_reader/lidar_reader.egg-info/top_level.txt\n'}
+[9.276988] (lidar_reader) StdoutLine: {'line': b"writing manifest file '../../build/lidar_reader/lidar_reader.egg-info/SOURCES.txt'\n"}
+[9.310370] (-) TimerEvent: {}
+[9.340054] (lidar_reader) StdoutLine: {'line': b"reading manifest file '../../build/lidar_reader/lidar_reader.egg-info/SOURCES.txt'\n"}
+[9.341054] (lidar_reader) StdoutLine: {'line': b"writing manifest file '../../build/lidar_reader/lidar_reader.egg-info/SOURCES.txt'\n"}
+[9.341399] (lidar_reader) StdoutLine: {'line': b'running build\n'}
+[9.341516] (lidar_reader) StdoutLine: {'line': b'running install\n'}
+[9.353634] (lidar_reader) StdoutLine: {'line': b'running install_data\n'}
+[9.354743] (lidar_reader) StdoutLine: {'line': b'creating /home/arwa/ros2_ws/install/lidar_reader/share/ament_index\n'}
+[9.355814] (lidar_reader) StdoutLine: {'line': b'creating /home/arwa/ros2_ws/install/lidar_reader/share/ament_index/resource_index\n'}
+[9.356078] (lidar_reader) StdoutLine: {'line': b'creating /home/arwa/ros2_ws/install/lidar_reader/share/ament_index/resource_index/packages\n'}
+[9.358572] (lidar_reader) StdoutLine: {'line': b'copying resource/lidar_reader -> /home/arwa/ros2_ws/install/lidar_reader/share/ament_index/resource_index/packages\n'}
+[9.358781] (lidar_reader) StdoutLine: {'line': b'copying package.xml -> /home/arwa/ros2_ws/install/lidar_reader/share/lidar_reader\n'}
+[9.359004] (lidar_reader) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.410513] (-) TimerEvent: {}
+[9.497172] (lidar_reader) StdoutLine: {'line': b'Copying ../../build/lidar_reader/lidar_reader.egg-info to /home/arwa/ros2_ws/install/lidar_reader/lib/python3.12/site-packages/lidar_reader-0.0.0-py3.12.egg-info\n'}
+[9.507794] (lidar_reader) StdoutLine: {'line': b'running install_scripts\n'}
+[9.510719] (-) TimerEvent: {}
+[9.612533] (-) TimerEvent: {}
+[9.713027] (-) TimerEvent: {}
+[9.813651] (-) TimerEvent: {}
+[9.917051] (-) TimerEvent: {}
+[10.017981] (-) TimerEvent: {}
+[10.118940] (-) TimerEvent: {}
+[10.221191] (-) TimerEvent: {}
+[10.252976] (lidar_reader) StdoutLine: {'line': b"writing list of installed files to '/home/arwa/ros2_ws/build/lidar_reader/install.log'\n"}
+[10.324224] (-) TimerEvent: {}
+[10.432198] (-) TimerEvent: {}
+[10.560819] (lidar_reader) CommandEnded: {'returncode': 0}
+[10.561538] (-) TimerEvent: {}
+[10.697550] (-) TimerEvent: {}
+[10.762203] (lidar_reader) JobEnded: {'identifier': 'lidar_reader', 'rc': 0}
+[10.764242] (-) EventReactorShutdown: {}

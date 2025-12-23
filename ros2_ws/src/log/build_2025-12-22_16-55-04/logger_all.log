@@ -1,0 +1,240 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.180s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a9f287ad220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a9f287acce0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a9f287acce0>>, mixin_verb=('build',))
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.269s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arwa/ros2_ws/src'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(AutoProjectPackage/AutoProject) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'AutoProjectPackage/AutoProject' with type 'ros.ament_cmake' and name 'AutoProject'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_reader) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_reader' with type 'ros.ament_python' and name 'lidar_reader'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'obstacle_detection' with type 'ros.ament_python' and name 'obstacle_detection'
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 483 installed packages in /opt/ros/jazzy
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'AutoProject' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'AutoProject' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arwa/ros2_ws/src/build/AutoProject', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arwa/ros2_ws/src/install/AutoProject', 'merge_install': False, 'path': '/home/arwa/ros2_ws/src/AutoProjectPackage/AutoProject', 'symlink_install': False, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'lidar_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arwa/ros2_ws/src/build/lidar_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arwa/ros2_ws/src/install/lidar_reader', 'merge_install': False, 'path': '/home/arwa/ros2_ws/src/lidar_reader', 'symlink_install': False, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arwa/ros2_ws/src/build/obstacle_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arwa/ros2_ws/src/install/obstacle_detection', 'merge_install': False, 'path': '/home/arwa/ros2_ws/src/obstacle_detection', 'symlink_install': False, 'test_result_base': None}
+[0.531s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.532s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arwa/ros2_ws/src/AutoProjectPackage/AutoProject' with build type 'ament_cmake'
+[0.532s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arwa/ros2_ws/src/AutoProjectPackage/AutoProject'
+[0.536s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.544s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arwa/ros2_ws/src/lidar_reader' with build type 'ament_python'
+[0.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_reader', 'ament_prefix_path')
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/hook/ament_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/hook/ament_prefix_path.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/hook/ament_prefix_path.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.560s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arwa/ros2_ws/src/obstacle_detection' with build type 'ament_python'
+[0.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detection', 'ament_prefix_path')
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/hook/ament_prefix_path.ps1'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/hook/ament_prefix_path.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/hook/ament_prefix_path.sh'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arwa/ros2_ws/src/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arwa/ros2_ws/src/AutoProjectPackage/AutoProject -DCMAKE_INSTALL_PREFIX=/home/arwa/ros2_ws/src/install/AutoProject
+[1.148s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arwa/ros2_ws/src/lidar_reader'
+[1.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.691s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arwa/ros2_ws/src/obstacle_detection'
+[1.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arwa/ros2_ws/src/lidar_reader': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/src/build/lidar_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/src/install/lidar_reader/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_reader build --build-base /home/arwa/ros2_ws/src/build/lidar_reader/build install --record /home/arwa/ros2_ws/src/build/lidar_reader/install.log --single-version-externally-managed install_data
+[3.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arwa/ros2_ws/src/obstacle_detection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/src/build/obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/src/install/obstacle_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/obstacle_detection build --build-base /home/arwa/ros2_ws/src/build/obstacle_detection/build install --record /home/arwa/ros2_ws/src/build/obstacle_detection/install.log --single-version-externally-managed install_data
+[3.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arwa/ros2_ws/src/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arwa/ros2_ws/src/AutoProjectPackage/AutoProject -DCMAKE_INSTALL_PREFIX=/home/arwa/ros2_ws/src/install/AutoProject
+[3.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arwa/ros2_ws/src/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arwa/ros2_ws/src/build/AutoProject -- -j4 -l4
+[3.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arwa/ros2_ws/src/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arwa/ros2_ws/src/build/AutoProject -- -j4 -l4
+[3.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arwa/ros2_ws/src/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arwa/ros2_ws/src/build/AutoProject
+[3.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(AutoProject)
+[3.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arwa/ros2_ws/src/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arwa/ros2_ws/src/build/AutoProject
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject' for CMake module files
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject' for CMake config files
+[3.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('AutoProject', 'cmake_prefix_path')
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/hook/cmake_prefix_path.ps1'
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/hook/cmake_prefix_path.dsv'
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/hook/cmake_prefix_path.sh'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject/bin'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject/lib/pkgconfig/AutoProject.pc'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject/lib/python3.12/site-packages'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject/bin'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.ps1'
+[3.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.dsv'
+[3.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.sh'
+[3.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.bash'
+[3.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.zsh'
+[3.945s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arwa/ros2_ws/src/install/AutoProject/share/colcon-core/packages/AutoProject)
+[3.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(AutoProject)
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject' for CMake module files
+[3.948s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject' for CMake config files
+[3.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('AutoProject', 'cmake_prefix_path')
+[3.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/hook/cmake_prefix_path.ps1'
+[3.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/hook/cmake_prefix_path.dsv'
+[3.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/hook/cmake_prefix_path.sh'
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject/bin'
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject/lib/pkgconfig/AutoProject.pc'
+[3.955s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject/lib/python3.12/site-packages'
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/AutoProject/bin'
+[3.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.ps1'
+[3.957s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.dsv'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.sh'
+[3.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.bash'
+[3.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.zsh'
+[3.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arwa/ros2_ws/src/install/AutoProject/share/colcon-core/packages/AutoProject)
+[4.539s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/lidar_reader' for CMake module files
+[4.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arwa/ros2_ws/src/lidar_reader' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/src/build/lidar_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/src/install/lidar_reader/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_reader build --build-base /home/arwa/ros2_ws/src/build/lidar_reader/build install --record /home/arwa/ros2_ws/src/build/lidar_reader/install.log --single-version-externally-managed install_data
+[4.541s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/lidar_reader' for CMake config files
+[4.542s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/lidar_reader/lib'
+[4.542s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/lidar_reader/bin'
+[4.542s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/lidar_reader/lib/pkgconfig/lidar_reader.pc'
+[4.543s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/lidar_reader/lib/python3.12/site-packages'
+[4.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_reader', 'pythonpath')
+[4.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/hook/pythonpath.ps1'
+[4.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/hook/pythonpath.dsv'
+[4.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/hook/pythonpath.sh'
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/lidar_reader/bin'
+[4.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_reader)
+[4.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/package.ps1'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/package.dsv'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/package.sh'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/package.bash'
+[4.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/lidar_reader/share/lidar_reader/package.zsh'
+[4.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arwa/ros2_ws/src/install/lidar_reader/share/colcon-core/packages/lidar_reader)
+[4.841s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/obstacle_detection' for CMake module files
+[4.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arwa/ros2_ws/src/obstacle_detection' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/src/build/obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/src/install/obstacle_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/obstacle_detection build --build-base /home/arwa/ros2_ws/src/build/obstacle_detection/build install --record /home/arwa/ros2_ws/src/build/obstacle_detection/install.log --single-version-externally-managed install_data
+[4.843s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/obstacle_detection' for CMake config files
+[4.844s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/obstacle_detection/lib'
+[4.844s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/obstacle_detection/bin'
+[4.844s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/obstacle_detection/lib/pkgconfig/obstacle_detection.pc'
+[4.845s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/obstacle_detection/lib/python3.12/site-packages'
+[4.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detection', 'pythonpath')
+[4.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/hook/pythonpath.ps1'
+[4.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/hook/pythonpath.dsv'
+[4.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/hook/pythonpath.sh'
+[4.849s] Level 1:colcon.colcon_core.environment:checking '/home/arwa/ros2_ws/src/install/obstacle_detection/bin'
+[4.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detection)
+[4.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/package.ps1'
+[4.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/package.dsv'
+[4.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/package.sh'
+[4.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/package.bash'
+[4.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/arwa/ros2_ws/src/install/obstacle_detection/share/obstacle_detection/package.zsh'
+[4.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arwa/ros2_ws/src/install/obstacle_detection/share/colcon-core/packages/obstacle_detection)
+[4.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.856s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.867s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.867s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.867s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.888s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.889s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arwa/ros2_ws/src/install/local_setup.ps1'
+[4.890s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arwa/ros2_ws/src/install/_local_setup_util_ps1.py'
+[4.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arwa/ros2_ws/src/install/setup.ps1'
+[4.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arwa/ros2_ws/src/install/local_setup.sh'
+[4.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arwa/ros2_ws/src/install/_local_setup_util_sh.py'
+[4.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arwa/ros2_ws/src/install/setup.sh'
+[4.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arwa/ros2_ws/src/install/local_setup.bash'
+[4.903s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arwa/ros2_ws/src/install/setup.bash'
+[4.904s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arwa/ros2_ws/src/install/local_setup.zsh'
+[4.905s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arwa/ros2_ws/src/install/setup.zsh'

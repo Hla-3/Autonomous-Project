@@ -1,0 +1,26 @@
+[3.960s] Invoking command in '/home/arwa/ros2_ws/src/AutonomousProject': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/AutonomousProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AutonomousProject build --build-base /home/arwa/ros2_ws/build/AutonomousProject/build install --record /home/arwa/ros2_ws/build/AutonomousProject/install.log --single-version-externally-managed install_data
+[4.604s] running egg_info
+[4.649s] writing ../../build/AutonomousProject/AutonomousProject.egg-info/PKG-INFO
+[4.655s] writing dependency_links to ../../build/AutonomousProject/AutonomousProject.egg-info/dependency_links.txt
+[4.655s] writing entry points to ../../build/AutonomousProject/AutonomousProject.egg-info/entry_points.txt
+[4.655s] writing requirements to ../../build/AutonomousProject/AutonomousProject.egg-info/requires.txt
+[4.655s] writing top-level names to ../../build/AutonomousProject/AutonomousProject.egg-info/top_level.txt
+[4.756s] reading manifest file '../../build/AutonomousProject/AutonomousProject.egg-info/SOURCES.txt'
+[4.758s] writing manifest file '../../build/AutonomousProject/AutonomousProject.egg-info/SOURCES.txt'
+[4.759s] running build
+[4.759s] running build_py
+[4.761s] copying AutonomousProject/lane_perception_node.py -> /home/arwa/ros2_ws/build/AutonomousProject/build/lib/AutonomousProject
+[4.762s] running install
+[4.779s] running install_lib
+[4.829s] copying /home/arwa/ros2_ws/build/AutonomousProject/build/lib/AutonomousProject/lane_perception_node.py -> /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject
+[4.831s] byte-compiling /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject/lane_perception_node.py to lane_perception_node.cpython-312.pyc
+[4.834s] running install_data
+[4.836s] running install_egg_info
+[4.887s] removing '/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject-0.0.0-py3.12.egg-info' (and everything under it)
+[4.887s] Copying ../../build/AutonomousProject/AutonomousProject.egg-info to /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject-0.0.0-py3.12.egg-info
+[4.893s] running install_scripts
+[5.198s] Installing lane_perception script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[5.198s] Installing lidar_obstacle script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[5.200s] Installing pid_controller script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[5.202s] writing list of installed files to '/home/arwa/ros2_ws/build/AutonomousProject/install.log'
+[5.295s] Invoked command in '/home/arwa/ros2_ws/src/AutonomousProject' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/AutonomousProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AutonomousProject build --build-base /home/arwa/ros2_ws/build/AutonomousProject/build install --record /home/arwa/ros2_ws/build/AutonomousProject/install.log --single-version-externally-managed install_data

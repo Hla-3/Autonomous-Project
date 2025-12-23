@@ -1,0 +1,21 @@
+[4.911s] Invoking command in '/home/arwa/ros2_ws/src/obstacle_detection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/obstacle_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_detection build --build-base /home/arwa/ros2_ws/build/obstacle_detection/build install --record /home/arwa/ros2_ws/build/obstacle_detection/install.log --single-version-externally-managed install_data
+[5.629s] running egg_info
+[5.703s] writing ../../build/obstacle_detection/obstacle_detection.egg-info/PKG-INFO
+[5.707s] writing dependency_links to ../../build/obstacle_detection/obstacle_detection.egg-info/dependency_links.txt
+[5.708s] writing entry points to ../../build/obstacle_detection/obstacle_detection.egg-info/entry_points.txt
+[5.709s] writing requirements to ../../build/obstacle_detection/obstacle_detection.egg-info/requires.txt
+[5.709s] writing top-level names to ../../build/obstacle_detection/obstacle_detection.egg-info/top_level.txt
+[5.851s] reading manifest file '../../build/obstacle_detection/obstacle_detection.egg-info/SOURCES.txt'
+[5.857s] writing manifest file '../../build/obstacle_detection/obstacle_detection.egg-info/SOURCES.txt'
+[5.858s] running build
+[5.860s] running build_py
+[5.868s] running install
+[5.879s] running install_lib
+[5.938s] running install_data
+[5.940s] running install_egg_info
+[5.998s] removing '/home/arwa/ros2_ws/install/obstacle_detection/lib/python3.12/site-packages/obstacle_detection-0.0.0-py3.12.egg-info' (and everything under it)
+[5.999s] Copying ../../build/obstacle_detection/obstacle_detection.egg-info to /home/arwa/ros2_ws/install/obstacle_detection/lib/python3.12/site-packages/obstacle_detection-0.0.0-py3.12.egg-info
+[6.005s] running install_scripts
+[6.396s] Installing obstacle_node script to /home/arwa/ros2_ws/install/obstacle_detection/lib/obstacle_detection
+[6.397s] writing list of installed files to '/home/arwa/ros2_ws/build/obstacle_detection/install.log'
+[6.485s] Invoked command in '/home/arwa/ros2_ws/src/obstacle_detection' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/obstacle_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_detection build --build-base /home/arwa/ros2_ws/build/obstacle_detection/build install --record /home/arwa/ros2_ws/build/obstacle_detection/install.log --single-version-externally-managed install_data

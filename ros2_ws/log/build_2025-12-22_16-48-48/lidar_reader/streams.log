@@ -1,0 +1,17 @@
+[2.055s] Invoking command in '/home/arwa/ros2_ws/src/lidar_reader': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/lidar_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/lidar_reader/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_reader build --build-base /home/arwa/ros2_ws/build/lidar_reader/build install --record /home/arwa/ros2_ws/build/lidar_reader/install.log --single-version-externally-managed install_data
+[2.620s] running egg_info
+[2.669s] writing ../../build/lidar_reader/lidar_reader.egg-info/PKG-INFO
+[2.670s] writing dependency_links to ../../build/lidar_reader/lidar_reader.egg-info/dependency_links.txt
+[2.671s] writing requirements to ../../build/lidar_reader/lidar_reader.egg-info/requires.txt
+[2.671s] writing top-level names to ../../build/lidar_reader/lidar_reader.egg-info/top_level.txt
+[2.732s] reading manifest file '../../build/lidar_reader/lidar_reader.egg-info/SOURCES.txt'
+[2.733s] writing manifest file '../../build/lidar_reader/lidar_reader.egg-info/SOURCES.txt'
+[2.734s] running build
+[2.734s] running install
+[2.751s] running install_data
+[2.752s] running install_egg_info
+[2.856s] removing '/home/arwa/ros2_ws/install/lidar_reader/lib/python3.12/site-packages/lidar_reader-0.0.0-py3.12.egg-info' (and everything under it)
+[2.857s] Copying ../../build/lidar_reader/lidar_reader.egg-info to /home/arwa/ros2_ws/install/lidar_reader/lib/python3.12/site-packages/lidar_reader-0.0.0-py3.12.egg-info
+[2.858s] running install_scripts
+[3.160s] writing list of installed files to '/home/arwa/ros2_ws/build/lidar_reader/install.log'
+[3.206s] Invoked command in '/home/arwa/ros2_ws/src/lidar_reader' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/lidar_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/lidar_reader/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_reader build --build-base /home/arwa/ros2_ws/build/lidar_reader/build install --record /home/arwa/ros2_ws/build/lidar_reader/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/AutonomousProject/AutonomousProject.egg-info/PKG-INFO
+writing dependency_links to ../../build/AutonomousProject/AutonomousProject.egg-info/dependency_links.txt
+writing entry points to ../../build/AutonomousProject/AutonomousProject.egg-info/entry_points.txt
+writing requirements to ../../build/AutonomousProject/AutonomousProject.egg-info/requires.txt
+writing top-level names to ../../build/AutonomousProject/AutonomousProject.egg-info/top_level.txt
+reading manifest file '../../build/AutonomousProject/AutonomousProject.egg-info/SOURCES.txt'
+writing manifest file '../../build/AutonomousProject/AutonomousProject.egg-info/SOURCES.txt'
+running build
+running build_py
+copying AutonomousProject/pid_controller_node.py -> /home/arwa/ros2_ws/build/AutonomousProject/build/lib/AutonomousProject
+copying AutonomousProject/lane_perception_node.py -> /home/arwa/ros2_ws/build/AutonomousProject/build/lib/AutonomousProject
+running install
+running install_lib
+copying /home/arwa/ros2_ws/build/AutonomousProject/build/lib/AutonomousProject/pid_controller_node.py -> /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject
+copying /home/arwa/ros2_ws/build/AutonomousProject/build/lib/AutonomousProject/lane_perception_node.py -> /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject
+byte-compiling /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject/pid_controller_node.py to pid_controller_node.cpython-312.pyc
+byte-compiling /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject/lane_perception_node.py to lane_perception_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/AutonomousProject/AutonomousProject.egg-info to /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject-0.0.0-py3.12.egg-info
+running install_scripts
+Installing lane_perception script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+Installing lidar_obstacle script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+Installing pid_controller script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+writing list of installed files to '/home/arwa/ros2_ws/build/AutonomousProject/install.log'

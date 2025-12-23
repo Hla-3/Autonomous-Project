@@ -1,0 +1,26 @@
+[6.113s] Invoking command in '/home/arwa/ros2_ws/src/AutonomousProject': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/AutonomousProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AutonomousProject build --build-base /home/arwa/ros2_ws/build/AutonomousProject/build install --record /home/arwa/ros2_ws/build/AutonomousProject/install.log --single-version-externally-managed install_data
+[7.182s] running egg_info
+[7.294s] writing ../../build/AutonomousProject/AutonomousProject.egg-info/PKG-INFO
+[7.297s] writing dependency_links to ../../build/AutonomousProject/AutonomousProject.egg-info/dependency_links.txt
+[7.299s] writing entry points to ../../build/AutonomousProject/AutonomousProject.egg-info/entry_points.txt
+[7.301s] writing requirements to ../../build/AutonomousProject/AutonomousProject.egg-info/requires.txt
+[7.301s] writing top-level names to ../../build/AutonomousProject/AutonomousProject.egg-info/top_level.txt
+[7.575s] reading manifest file '../../build/AutonomousProject/AutonomousProject.egg-info/SOURCES.txt'
+[7.578s] writing manifest file '../../build/AutonomousProject/AutonomousProject.egg-info/SOURCES.txt'
+[7.578s] running build
+[7.578s] running build_py
+[7.579s] running install
+[7.595s] running install_lib
+[7.729s] running install_data
+[7.733s] creating /home/arwa/ros2_ws/install/AutonomousProject/share/AutonomousProject/launch
+[7.733s] copying launch/simulation.launch.py -> /home/arwa/ros2_ws/install/AutonomousProject/share/AutonomousProject/launch
+[7.733s] copying worlds/doubleLane.sdf -> /home/arwa/ros2_ws/install/AutonomousProject/share/AutonomousProject/worlds
+[7.733s] running install_egg_info
+[7.848s] removing '/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject-0.0.0-py3.12.egg-info' (and everything under it)
+[7.849s] Copying ../../build/AutonomousProject/AutonomousProject.egg-info to /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject-0.0.0-py3.12.egg-info
+[7.860s] running install_scripts
+[8.403s] Installing lane_perception script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[8.404s] Installing lidar_obstacle script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[8.405s] Installing pid_controller script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[8.406s] writing list of installed files to '/home/arwa/ros2_ws/build/AutonomousProject/install.log'
+[8.514s] Invoked command in '/home/arwa/ros2_ws/src/AutonomousProject' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/AutonomousProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AutonomousProject build --build-base /home/arwa/ros2_ws/build/AutonomousProject/build install --record /home/arwa/ros2_ws/build/AutonomousProject/install.log --single-version-externally-managed install_data

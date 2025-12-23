@@ -1,0 +1,4 @@
+source;share/AutoProject/local_setup.bash
+source;share/AutoProject/local_setup.dsv
+source;share/AutoProject/local_setup.sh
+source;share/AutoProject/local_setup.zsh

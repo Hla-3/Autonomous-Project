@@ -1,0 +1,26 @@
+[4.354s] Invoking command in '/home/arwa/ros2_ws/src/AutonomousProject': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/AutonomousProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AutonomousProject build --build-base /home/arwa/ros2_ws/build/AutonomousProject/build install --record /home/arwa/ros2_ws/build/AutonomousProject/install.log --single-version-externally-managed install_data
+[5.470s] running egg_info
+[5.553s] writing ../../build/AutonomousProject/AutonomousProject.egg-info/PKG-INFO
+[5.553s] writing dependency_links to ../../build/AutonomousProject/AutonomousProject.egg-info/dependency_links.txt
+[5.554s] writing entry points to ../../build/AutonomousProject/AutonomousProject.egg-info/entry_points.txt
+[5.556s] writing requirements to ../../build/AutonomousProject/AutonomousProject.egg-info/requires.txt
+[5.556s] writing top-level names to ../../build/AutonomousProject/AutonomousProject.egg-info/top_level.txt
+[5.690s] reading manifest file '../../build/AutonomousProject/AutonomousProject.egg-info/SOURCES.txt'
+[5.692s] writing manifest file '../../build/AutonomousProject/AutonomousProject.egg-info/SOURCES.txt'
+[5.692s] running build
+[5.694s] running build_py
+[5.694s] copying AutonomousProject/pid_controller_node.py -> /home/arwa/ros2_ws/build/AutonomousProject/build/lib/AutonomousProject
+[5.694s] running install
+[5.706s] running install_lib
+[5.781s] copying /home/arwa/ros2_ws/build/AutonomousProject/build/lib/AutonomousProject/pid_controller_node.py -> /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject
+[5.783s] byte-compiling /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject/pid_controller_node.py to pid_controller_node.cpython-312.pyc
+[5.786s] running install_data
+[5.788s] running install_egg_info
+[5.873s] removing '/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject-0.0.0-py3.12.egg-info' (and everything under it)
+[5.874s] Copying ../../build/AutonomousProject/AutonomousProject.egg-info to /home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages/AutonomousProject-0.0.0-py3.12.egg-info
+[5.878s] running install_scripts
+[6.321s] Installing lane_perception script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[6.322s] Installing lidar_obstacle script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[6.323s] Installing pid_controller script to /home/arwa/ros2_ws/install/AutonomousProject/lib/AutonomousProject
+[6.323s] writing list of installed files to '/home/arwa/ros2_ws/build/AutonomousProject/install.log'
+[6.392s] Invoked command in '/home/arwa/ros2_ws/src/AutonomousProject' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arwa/ros2_ws/build/AutonomousProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arwa/ros2_ws/install/AutonomousProject/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AutonomousProject build --build-base /home/arwa/ros2_ws/build/AutonomousProject/build install --record /home/arwa/ros2_ws/build/AutonomousProject/install.log --single-version-externally-managed install_data

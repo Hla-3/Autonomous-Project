@@ -1,0 +1,53 @@
+[0.060s] Invoking command in '/home/arwa/ros2_ws/src/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arwa/ros2_ws/src/AutoProjectPackage/AutoProject -DCMAKE_INSTALL_PREFIX=/home/arwa/ros2_ws/src/install/AutoProject
+[0.714s] -- The C compiler identification is GNU 13.3.0
+[1.206s] -- The CXX compiler identification is GNU 13.3.0
+[1.293s] -- Detecting C compiler ABI info
+[1.546s] -- Detecting C compiler ABI info - done
+[1.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.576s] -- Detecting C compile features
+[1.577s] -- Detecting C compile features - done
+[1.604s] -- Detecting CXX compiler ABI info
+[1.867s] -- Detecting CXX compiler ABI info - done
+[1.885s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.887s] -- Detecting CXX compile features
+[1.888s] -- Detecting CXX compile features - done
+[1.929s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.336s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.802s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.976s] WARNING: Package name "AutoProject" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.152s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.152s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.156s] -- Added test 'lint_cmake' to check CMake code style
+[3.163s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.170s] -- Added test 'xmllint' to check XML markup files
+[3.174s] -- Configuring done (2.9s)
+[3.187s] -- Generating done (0.0s)
+[3.194s] -- Build files have been written to: /home/arwa/ros2_ws/src/build/AutoProject
+[3.204s] Invoked command in '/home/arwa/ros2_ws/src/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arwa/ros2_ws/src/AutoProjectPackage/AutoProject -DCMAKE_INSTALL_PREFIX=/home/arwa/ros2_ws/src/install/AutoProject
+[3.206s] Invoking command in '/home/arwa/ros2_ws/src/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arwa/ros2_ws/src/build/AutoProject -- -j4 -l4
+[3.307s] Invoked command in '/home/arwa/ros2_ws/src/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arwa/ros2_ws/src/build/AutoProject -- -j4 -l4
+[3.329s] Invoking command in '/home/arwa/ros2_ws/src/build/AutoProject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arwa/ros2_ws/src/build/AutoProject
+[3.353s] -- Install configuration: ""
+[3.353s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/launch
+[3.354s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/launch/tb4_simulation.launch.py
+[3.354s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/launch/sim.launch.py
+[3.355s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/worlds
+[3.355s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/worlds/doubleLane.sdf
+[3.355s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/worlds/lane_visual.sdfZone.Identifier
+[3.355s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/worlds/lane_visual.sdf
+[3.356s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/ament_index/resource_index/package_run_dependencies/AutoProject
+[3.358s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/ament_index/resource_index/parent_prefix_path/AutoProject
+[3.358s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/environment/ament_prefix_path.sh
+[3.358s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/environment/ament_prefix_path.dsv
+[3.360s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/environment/path.sh
+[3.362s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/environment/path.dsv
+[3.363s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/local_setup.bash
+[3.365s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/local_setup.sh
+[3.365s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/local_setup.zsh
+[3.365s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/local_setup.dsv
+[3.365s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.dsv
+[3.365s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/ament_index/resource_index/packages/AutoProject
+[3.365s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/cmake/AutoProjectConfig.cmake
+[3.365s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/cmake/AutoProjectConfig-version.cmake
+[3.366s] -- Installing: /home/arwa/ros2_ws/src/install/AutoProject/share/AutoProject/package.xml
+[3.368s] Invoked command in '/home/arwa/ros2_ws/src/build/AutoProject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arwa/ros2_ws/src/build/AutoProject

@@ -1,0 +1,9 @@
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/uninstall.dir
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/AutoProject_uninstall.dir
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/test.dir
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/edit_cache.dir
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/rebuild_cache.dir
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/list_install_components.dir
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/install.dir
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/install/local.dir
+/home/arwa/ros2_ws/src/build/AutoProject/CMakeFiles/install/strip.dir

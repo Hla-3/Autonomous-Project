@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../build/lidar_reader/lidar_reader.egg-info/PKG-INFO
+../build/lidar_reader/lidar_reader.egg-info/SOURCES.txt
+../build/lidar_reader/lidar_reader.egg-info/dependency_links.txt
+../build/lidar_reader/lidar_reader.egg-info/requires.txt
+../build/lidar_reader/lidar_reader.egg-info/top_level.txt
+../build/lidar_reader/lidar_reader.egg-info/zip-safe
+resource/lidar_reader
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
